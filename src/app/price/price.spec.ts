@@ -4,7 +4,7 @@ describe('calculateDiscount', () => {
   it('applies a 10% discount for a premium user', () => {
     const result = calculateDiscount(100, true);
 
-    expect(result).toBe(91);
+    expect(result).toBe(90);
   });
 
   it('returns the original price for a non-premium user', () => {
