@@ -1,0 +1,8 @@
+@if (visible()) {
+  <section aria-label="Discount offer">
+    <p>Save {{ discount() }}%</p>
+    <button type="button" aria-label="Dismiss discount offer" (click)="dismiss()">
+      Dismiss
+    </button>
+  </section>
+}
